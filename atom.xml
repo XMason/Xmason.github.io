@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xumason.top/"/>
-  <updated>2019-03-27T01:22:36.228Z</updated>
+  <updated>2019-03-27T08:45:17.795Z</updated>
   <id>http://xumason.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown基本语法</title>
+    <link href="http://xumason.top/2019/03/27/MarkdownSyntax/"/>
+    <id>http://xumason.top/2019/03/27/MarkdownSyntax/</id>
+    <published>2019-03-27T01:22:26.461Z</published>
+    <updated>2019-03-27T08:45:17.795Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#MarkdownSyntax&lt;/p&gt;
+&lt;p&gt;###一、标题&lt;br&gt;&lt;strong&gt;在行首插入对应“#”号，来实现对标题格式的定义&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;######例如：&lt;br&gt;&lt;figure class=&quot;hljs highlight
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -32,20 +56,6 @@
           &lt;p&gt;###BlueScreenDumpAnalysis   
         
       
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://xumason.top/2019/03/26/test/"/>
-    <id>http://xumason.top/2019/03/26/test/</id>
-    <published>2019-03-26T04:43:08.000Z</published>
-    <updated>2019-03-26T04:43:08.868Z</updated>
-    
-    <summary type="html">
     
     </summary>
     

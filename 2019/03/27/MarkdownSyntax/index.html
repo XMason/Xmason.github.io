@@ -133,7 +133,7 @@
     </script>
     
     <script defer type="text/javascript" src="/js/custom.js"></script>
-    <title>test | X的博客 - 躁动中寻求安宁</title>
+    <title>Markdown基本语法 | X的博客 - 躁动中寻求安宁</title>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" lang="zh_CN" data-spy="scroll" data-target=".list-group">
     
@@ -177,7 +177,7 @@
   
   <article class="article post card" itemscope itemtype="http://schema.org/Article">
     <div class="post-block">
-      <link itemprop="mainEntityOfPage" href="http://xumason.top/2019/03/26/test/">
+      <link itemprop="mainEntityOfPage" href="http://xumason.top/2019/03/27/MarkdownSyntax/">
       <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
        <meta itemprop="name" content="XuMason">
        <meta itemprop="description" content>
@@ -188,11 +188,11 @@
       </span>
     </div>
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">test</h1>
+      <h1 class="post-title" itemprop="name headline">Markdown基本语法</h1>
       <div class="post-meta">
         
         <span class="post-date">
-          <i class="far fa-calendar-plus"></i><span><time title="post-date" itemprop="dateCreated datePublished" datetime="2019-03-26T12:43:08+08:00">2019-03-26 12:43:08</time></span>
+          <i class="far fa-calendar-plus"></i><span><time title="post-date" itemprop="dateCreated datePublished" datetime="2019-03-27T09:22:26+08:00">2019-03-27 09:22:26</time></span>
         </span>
         
         
@@ -200,7 +200,83 @@
       </div>
     </header>
     <main class="post-main" itemprop="articleBody">
-      
+      <p>#MarkdownSyntax</p>
+<p>###一、标题<br><strong>在行首插入对应“#”号，来实现对标题格式的定义</strong></p>
+<p>######例如：<br><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 这是H1</span><br><span class="hljs-comment">## 这是H2</span><br><span class="hljs-comment">### 这是H3</span><br><span class="hljs-comment">#### 这是H4</span><br><span class="hljs-comment">##### 这是H5</span><br><span class="hljs-comment">###### 这是H6</span><br></code></pre></td></tr></table></figure></p>
+<p>######效果如下：  </p>
+<blockquote>
+<h1 id="这是H1"><a href="#这是H1" class="headerlink" title="这是H1"></a>这是H1</h1><h2 id="这是H2"><a href="#这是H2" class="headerlink" title="这是H2"></a>这是H2</h2><h3 id="这是H3"><a href="#这是H3" class="headerlink" title="这是H3"></a>这是H3</h3><h4 id="这是H4"><a href="#这是H4" class="headerlink" title="这是H4"></a>这是H4</h4><h5 id="这是H5"><a href="#这是H5" class="headerlink" title="这是H5"></a>这是H5</h5><h6 id="这是H6"><a href="#这是H6" class="headerlink" title="这是H6"></a>这是H6</h6></blockquote>
+<hr>
+<p>###二、段落和换行</p>
+<p>#####● 段落<br>普通段落不用空格或制表符来缩进    </p>
+<p>#####● 换行<br>段落结尾使用两个以上的空格后回车换行   </p>
+<hr>
+<p>###三、字体</p>
+<p>#####● 加粗<br>在加粗内容的前后加上 **   </p>
+<p>#####● 斜体<br>在斜体内容的前后加上 *   </p>
+<p>#####● 加粗斜体<br>在加粗内容的前后加上双 ***   </p>
+<p>#####● 删除线<br>在加粗内容的前后加上双 ~~   </p>
+<p>######例如：<br><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">**粗体**<br>*斜体*<br>***加粗斜体***<br>~~删除线~~<br></code></pre></td></tr></table></figure></p>
+<p>######效果如下：   </p>
+<blockquote>
+<p><strong>粗体</strong><br><em>斜体</em><br><strong><em>加粗斜体</em></strong><br><del>删除线</del>   </p>
+</blockquote>
+<hr>
+<p>###四、区块引用</p>
+<p>#####● 在每行最前面加上 >   </p>
+<p>#####● 也允许在整个段落的第一行最前面加上 > </p>
+<p>#####● 也可以进行引用嵌套<br>(注意：需要两个以上的回车后空格)</p>
+<p>######例如：<br><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs bash">&gt;第一段<br>&gt;第二段<br>&gt;第三段<br><br>&gt;第一段   <br>第二段   <br>第三段   <br><br>&gt;第一段<br>&gt;&gt;第二段<br>&gt;&gt;&gt;第三段<br></code></pre></td></tr></table></figure></p>
+<p>######效果如下：</p>
+<blockquote>
+<p>第一段<br>第二段<br>第三段       </p>
+</blockquote>
+<blockquote>
+<p>第一段<br>第二段<br>第三段    </p>
+</blockquote>
+<blockquote>
+<p>第一段   </p>
+<blockquote>
+<p>第二段   </p>
+<blockquote>
+<p>第三段   </p>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<p>###五、列表</p>
+<p>#####● 有序列表<br>有序列表使用数字后面加一个英文句点标记</p>
+<p>#####● 无序列表<br>无序列表使用 * 或 + 或 - 后面加一个空格标记</p>
+<p>######例如：<br><figure class="hljs highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs undefined">1.张三<br>2.李四<br>3.王五<br><br>*张三<br>+李四<br>-王五<br></code></pre></td></tr></table></figure></p>
+<p>######效果如下：</p>
+<blockquote>
+<p>1.张三<br>2.李四<br>3.王五   </p>
+</blockquote>
+<blockquote>
+<ul>
+<li>张三   </li>
+</ul>
+<ul>
+<li>李四   </li>
+</ul>
+<ul>
+<li>王五     </li>
+</ul>
+</blockquote>
+<hr>
+<p>###六、代码</p>
+<p>#####● 只需要缩进4个空格或者1个制表符（区块元素）</p>
+<p>#####● 代码前后加上 ```（区段元素）</p>
+<p>######例如：<br><figure class="hljs highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs undefined">&lt;p&gt;这是一个普通段落&lt;/p&gt;<br></code></pre></td></tr></table></figure></p>
+<pre><code>&lt;p&gt;这是一个普通段落&lt;/p&gt;
+<figure class="hljs highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs undefined">```<br>######效果如下：<br>    &lt;p&gt;这是一个普通段落&lt;/p&gt;    <br><br>---<br>###七、分割线<br>#####需要三个 \* 或 \- 或 \+<br>######例如：<br></code></pre></td></tr></table></figure>
+</code></pre><hr>
+<hr>
+<p>+++<br><figure class="hljs highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs undefined">######效果如下：     <br>***  <br><br>---<br>###八、链接<br>#####● [] 里面输入链接文字<br>#####● () 里面输入跳转链接<br>#####● &quot;&quot; 里面输入链接标题<br>######例如：<br></code></pre></td></tr></table></figure></p>
+<p>打开<a href="https://www.baidu.com" title="百度" target="_blank" rel="noopener">百度</a>这条链接<br><figure class="hljs highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs undefined">######效果如下<br>&gt;打开[百度](https://www.baidu.com &quot;百度&quot;)这条链接<br><br>---<br>###九、图片<br>#####● 首行使用 \! <br>#####● [] 里面输入图片替换文字<br>#####● () 里面输入图片路径<br>#####● &quot;&quot; 里面输入图片标题<br>######例如：<br></code></pre></td></tr></table></figure></p>
+<p><img src="/avatar.png" alt="照片" title="图片"><br><code>`</code></p>
+<p>######效果如下<br><img src="/imagesimages/avatar.png" alt="照片"></p>
+
     </main>
     <footer class="post-footer">
       
@@ -211,12 +287,10 @@
   <nav class="page-nav">
     <div class="page-nav-next page-nav-item">
       
-      <a href="/2019/03/26/hello-world/" rel="next" title="Hello World"><i class="fas fa-angle-left"></i><span class="nav-title">Hello World</span></a>
+      <a href="/2019/03/27/BlueScreenDumpAnalysis/" rel="next" title><i class="fas fa-angle-left"></i><span class="nav-title"></span></a>
       
     </div>
     <div class="page-nav-prev page-nav-item">
-      
-      <a href="/2019/03/27/BlueScreenDumpAnalysis/" rel="prev" title><span class="nav-title"></span><i class="fas fa-angle-right"></i></a>
       
     </div>
   </nav>
@@ -274,6 +348,17 @@
 
 
   <div class="sidebar-sticky">
+    
+    
+    
+    
+    
+    <hr>
+    <div class="post-toc sidebar-item" id="toc-div">
+      <div><i class="fas fa-list-ol"></i>文章目录</div>
+      <div class="post-toc-content"><ol class="list-group toc"><li class="toc-item toc-level-1"><a class="list-group-item toc-link" href="#这是H1"><span class="toc-text">这是H1</span></a><ol class="list-group toc-child"><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#这是H2"><span class="toc-text">这是H2</span></a><ol class="list-group toc-child"><li class="toc-item toc-level-3"><a class="list-group-item toc-link" href="#这是H3"><span class="toc-text">这是H3</span></a><ol class="list-group toc-child"><li class="toc-item toc-level-4"><a class="list-group-item toc-link" href="#这是H4"><span class="toc-text">这是H4</span></a><ol class="list-group toc-child"><li class="toc-item toc-level-5"><a class="list-group-item toc-link" href="#这是H5"><span class="toc-text">这是H5</span></a><ol class="list-group toc-child"><li class="toc-item toc-level-6"><a class="list-group-item toc-link" href="#这是H6"><span class="toc-text">这是H6</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li></ol></div>
+    </div>
+    
     
     
     <hr>
